@@ -18,7 +18,7 @@ public abstract class Conta {
 		this.saldo = saldo;
 	}
 
-	//metodo get e set (inserir significado aqui)
+	//metodo get e set (get = obter | set = definir)
 	public int getNumero() {
 		return numero;
 	}
@@ -65,7 +65,8 @@ public abstract class Conta {
 		}return false;
 		
 		this.setSaldo(this.getSaldo() - valor);
-		return true; }
+		return true; 
+		// pedir ajuda nesse pq não entendi esse erro e não consegui ajustar tbm 
 	
 		public void depositar (float valor) {
 			this.setSaldo(this.getSaldo() + valor);	
@@ -73,7 +74,7 @@ public abstract class Conta {
 	
 	public void visualizar () {
 		
-		String contatipo = "";
+		String contatipo = "";{
 		
 		switch (contatipo) {
 		case 1: {
@@ -102,4 +103,5 @@ public abstract class Conta {
 	
 	
 
+}
 }
